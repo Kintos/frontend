@@ -1,0 +1,34 @@
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  box-sizing: border-box;
+	transform-style: inherit;
+}
+
+.slide {
+  background: 50% 50% / cover;
+}
+
+.header {
+  text-align: center;
+  font-size: 100%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+    background-image: url("../img/banner.jpg");
+    background-position: center top;
+}
+
+.myFont {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.myFont2 {
+  font-family: 'Bitter', serif;
+  font-size: 200%;
+  color: #40943A;
+}
