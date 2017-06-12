@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/design.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
+    <link rel="stylesheet" href="https://overpass-30e2.kxcdn.com/overpass.css" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
@@ -44,7 +45,7 @@
     <nav class="navbar navbar-default bg-inverse bg-inverse-custom navbar-fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="img/favicon/apple-touch-icon-76x76.png" width="55px" class="img-fluid">
+          <img src="img/favicon/apple-touch-icon-76x76.png" width="55px" class="logo img-fluid">
         </a>
         <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="true" aria-controls="collapsingNavbar">
         </a>
@@ -53,39 +54,37 @@
         </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
           <ul class="nav navbar-nav pull-xs-right">
-            <li class="nav-item nav-item-toggable active">
+            <!--<li class="nav-item nav-item-toggable active">
               <a class="nav-link myFont" href="#"><b><h4> Kintos </b></h4></a>
+            </li>-->
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link myFont" href="#contact"><b><h5> Contacto </b></h5></a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link myFont" href="#"><b><h4> Contacto </b></h4></a>
+              <a class="nav-link myFont" href="#faq"><b><h5> ¿Preguntas? </b></h5></a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link myFont" href="#" target="_blank"><b><h4> ¿Preguntas? </b></h4></a>
-            </li>
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link btn myFont" href="http://www.kintos.mx" target="_blank"><b><h5> Iniciar sesión </b></h5></a>
+              <a class="nav-link btn myFont" href="http://app.kintos.mx" target="_blank"><b><h5> <i class="fa fa-sign-in"></i> Iniciar sesión </b></h5></a>
             </li>
         </div>
       </div>
     </nav>
-
-
 
     <!-- Carousel
     ================================================== -->
 
     <header>
       <div id="title" class="slide parallax header">
-        <img src="img/logo.png" class="img-responsive center-block" width="150px">
+        <img src="img/logo.png" class="img-responsive center-block" width="120px">
+        <br>
         <h1 class="myFont2">KINTOS</h1>
-        <h1 class="myFont">¿Necesitas dinero para:
-          <br>
-          <span
+        <h1 class="myFont">¿Te falta dinero para:
+         <span
           class="txt-rotate myFont"
           data-period="0"
           data-rotate='[ "un concierto?", "libros?", "comida?", "material?", "uber?", "la renta?" ]'></span>
-          <h3 class="m-b-3 hidden-sm-down myFont">Prestamos instantáneos con recompensas </h3>
-          <a class="btn btn-secondary-outline m-b-2" href="http://www.kintos.mx" role="button">Comienza ahora</a>
+          <h5 class="m-b-3 hidden-sm-down myFont">Prestamos instantáneos con recompensas </h5>
+          <a class="btn btn-secondary-outline m-b-2" href="http://app.kintos.mx/register" role="button"><i class="fa fa-rocket"></i>Comienza ahora</a>
         </h1>
       </div>
     </header>
@@ -105,12 +104,13 @@
             </div>
           </div>
         </div>
+        <img src="./img/Trophy_Icon.svg" alt="Gana con nosotros" width="150px">
         <div class="row">
           <div class="col-md-12">
             <div class="card">
               <div class="card-block">
-              <h3>¿Para quien es quintos?</h3>
-              <p>Kintos es para todos aquellos estudiantes que, por diversas razones, requieren dinero rapidamente.</p>
+              <h3>¿Para quien es Kintos?</h3>
+              <p>Kintos es para todos aquellos que, por diversas razones, les falta dinero en el momento.</p>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@
     <!-- Features
     ================================================== -->
 
-    <section class="section-features text-xs-center bg-inverse">
+    <section class="section-features text-xs-center bg-inverse" id="faq">
       <div class="container myFont">
       <div>
         <div class="row">
@@ -129,6 +129,7 @@
             <img src="img/interest.png" width="225px" class="img-fluid">
           </div>
           <div class="col-xs-6" align="left">
+            <br>
             <h3>Intereses bajos</h3>
             <p class="card-text">Comprueba que nosotros tenemos tarifas más bajas que los bancos e incluso que otras páginas de préstamos en línea.</p>
           </div>
@@ -136,6 +137,7 @@
         <br>
         <div class="row">
           <div class="col-xs-6" align="right">
+            <br><br>
             <h3>Alcanza metas</h3>
             <p class="card-text">Queremos que alcances tu metas, por eso te regalamos descuentos y promociones en tiendas, restaurantes y cafeterías de tu preferencia.</p>
           </div>
@@ -172,6 +174,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
+            <br>
             <img class="card-img-top img-responsive center-block" width="300px" src="img/subway.jpg" alt="">
           </div>
         </div>
@@ -187,13 +190,13 @@
 
     <!-- Contact
     ================================================== -->
-    <section class="bg-green" id="contact" style="">
+    <section class="bg-green" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="about_our_company" style="margin-bottom: 20px;"><br
-                        <h1 >Write Your Message</h1>
+                    <div class="about_our_company" style="margin-bottom: 20px;"><br>
+                        <h1>Escribe tu mensaje</h1>
                         <div class="titleline-icon"></div>
-                        <p  >Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        <p>Deja tu mensaje y lo responderemos lo antes posible</p>
                     </div>
                 </div>
                 <div class="row">
@@ -202,43 +205,43 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="Tu nombre *" id="name" required="" data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                        <input type="email" class="form-control" placeholder="Tu correo electronico *" id="email" required="" data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                        <input type="tel" class="form-control" placeholder="Tu telefono *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea class="form-control" placeholder="Tu mensaje *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
                                     <div id="success"></div>
-                                    <button type="submit" class="btn btn-xl get">Send Message</button>
+                                    <button type="submit" class="btn btn-xl get">Enviar mensaje</button>
+                                    <br><br><br><br>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <br>
                     <div class="col-md-4">
                         <p>
-                            <strong><i class="fa fa-map-marker"></i> Address</strong><br>
-                            1216/Mirpur_10 Beach, Dhaka(Bangladesh)
+                            <strong><i class="fa fa-map-marker"></i> Direccion</strong><br>
+                            Av. General Ramon Corona 2514
                         </p>
-                        <p  ><strong><i class="fa fa-phone"></i> Phone Number</strong><br>
-                            (+8801)7123456</p>
+                        <!--<p  ><strong><i class="fa fa-phone"></i> Phone Number</strong><br>
+                            (+8801)7123456</p>-->
                         <p>
-                            <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
-                            Email@info.com</p>
+                            <strong><i class="fa fa-envelope"></i>  Correo electronico</strong><br>
+                            ayuda@kintosapp.com</p>
                         <p></p>
                     </div>
                 </div>
@@ -247,7 +250,6 @@
 
     <!-- Footer
     ================================================== -->
-
     <footer class="section-footer bg-inverse" role="contentinfo">
       <div class="container">
         <div class="row">

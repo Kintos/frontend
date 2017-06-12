@@ -28,7 +28,14 @@
 }
 
 .myFont2 {
-  font-family: 'Bitter', serif;
+  font-family: 'overpass', serif;
   font-size: 200%;
   color: #40943A;
+}
+
+.logo{
+  font-family: 'overpass';
+  font-size: 200%;
+  color: #40943A;
+  display:inline-block;
 }
