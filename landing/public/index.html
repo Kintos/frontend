@@ -31,166 +31,188 @@
     <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#663fb5">
     <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/design.css">
+
     <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
-    <link rel="stylesheet" href="https://overpass-30e2.kxcdn.com/overpass.css" type="text/css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
   </head>
 
-  <body>
+  <body data-spy="scroll"  data-target="#navbar-kintos; #navbar-contact; #navbar-rewards">
 
     <!-- Navigation
     ================================================== -->
-    <nav class="navbar navbar-default bg-inverse bg-inverse-custom navbar-fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/favicon/apple-touch-icon-76x76.png" width="55px" class="logo img-fluid">
-        </a>
-        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="true" aria-controls="collapsingNavbar">
-        </a>
-        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
-          <span class="icon-user" aria-hidden="true"></span>
-        </a>
-        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
-          <ul class="nav navbar-nav pull-xs-right">
-            <!--<li class="nav-item nav-item-toggable active">
-              <a class="nav-link myFont" href="#"><b><h4> Kintos </b></h4></a>
-            </li>-->
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link myFont" href="#contact"><b><h5> Contacto </b></h5></a>
-            </li>
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link myFont" href="#faq"><b><h5> ¿Preguntas? </b></h5></a>
-            </li>
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link btn myFont" href="http://app.kintos.mx" target="_blank"><b><h5> <i class="fa fa-sign-in"></i> Iniciar sesión </b></h5></a>
-            </li>
-        </div>
-      </div>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header myFont">
+  <header style="background-color: #000000" class="navbar fixed-top mdl-layout__header">
+
+    <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+      <!-- Title -->
+      <span style="font-size: 30px" class="myFont"><img src="img/logo.png" width="40px"> Kintos</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-kintos">¿Qué es Kintos?</a>
+        <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-rewards">Recompensas</a>
+        <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-contact">Contacto</a>
+        <a class="mdl-navigation__link" style="font-size: 20px" href="http://app.kintos.mx">INICIA</a>
+      </nav>
+    </div>
+  </header>
+  <div class=" navbar fixed-top mdl-layout__drawer mdl-layout--small-screen-only">
+    <span class="mdl-layout-title"><img src="img/logo.png" width="30px"> Kintos</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-kintos">¿Qué es Kintos?</a>
+      <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-rewards">Recompensas</a>
+      <a class="mdl-navigation__link" style="font-size: 20px" href=#navbar-contact"">Contacto</a>
+      <a class="mdl-navigation__link" style="color: #40943A; font-size: 20px" href="http://app.kintos.mx">INICIA</a>
     </nav>
-
-    <!-- Carousel
-    ================================================== -->
-
-    <header>
-      <div id="title" class="slide parallax header">
-        <img src="img/logo.png" class="img-responsive center-block" width="120px">
+  </div>
+  <main class="mdl-layout__content">
+    <div id="title" class="slide parallax header">
+      <img src="img/logo.png" class="hidden-lg-up img-responsive center-block" width="120px">
+      <h1 class="hidden-lg-up myFont">KINTOS</h1>
+      <br>
+      <h1 style="font-size: 10vmin;" class="myFont">¿Te falta dinero para:
+       <span
+        class="txt-rotate myFont"
+        data-period="0"
+        data-rotate='[ "un evento?", "libros?", "comida?", "material?", "uber?" ]'></span>
+        <h2 class="m-b-3 myFont">Micro prestamos para estudiantes</h2>
         <br>
-        <h1 class="myFont2">KINTOS</h1>
-        <h1 class="myFont">¿Te falta dinero para:
-         <span
-          class="txt-rotate myFont"
-          data-period="0"
-          data-rotate='[ "un concierto?", "libros?", "comida?", "material?", "uber?", "la renta?" ]'></span>
-          <h5 class="m-b-3 hidden-sm-down myFont">Prestamos instantáneos con recompensas </h5>
-          <a class="btn btn-secondary-outline m-b-2" href="http://app.kintos.mx/register" role="button"><i class="fa fa-rocket"></i>Comienza ahora</a>
-        </h1>
-      </div>
-    </header>
+      </h1>
+      <a style="opacity:0.8; font-size:20px;" class="btn btn-success" href="http://app.kintos.mx/" role="button">Registrate</a>
+    </div>
 
     <!-- Intro
     ================================================== -->
 
-    <section class="section-features  text-xs-center">
-      <div class="container" id="introduction">
+    <section class="bg-inverse myFont">
+      <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-block">
-              <h1>Presentamos Kintos</h1>
-              <p>Nuestro nuevo esquema de préstamos te permite obtener el dinero que necesitas al instante y recibir increíbles beneficios por alcanzar tus metas.</p>
-              </div>
-            </div>
+          <div class="col-md-12" align="center" id="navbar-kintos">
+            <br><br><br><br>
+              <h1 style="color: #f4f4f4">Presentamos Kintos</h1>
+              <p style="font-size: 20px; color: #f4f4f4">La herramienta financiera diseñada para estudiantes universitarios. Micro prestamos 24/7 con recompensas tangibles y relevantes. </p>
+              <img src="./img/Trophy_Icon.svg" alt="Gana con nosotros" width="150px">
           </div>
         </div>
-        <img src="./img/Trophy_Icon.svg" alt="Gana con nosotros" width="150px">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-block">
-              <h3>¿Para quien es Kintos?</h3>
-              <p>Kintos es para todos aquellos que, por diversas razones, les falta dinero en el momento.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div><br><br>
     </section>
 
     <!-- Features
     ================================================== -->
+<style>
 
-    <section class="section-features text-xs-center bg-inverse" id="faq">
-      <div class="container myFont">
-      <div>
-        <div class="row">
-          <div class="col-xs-6" align="right">
-            <img src="img/interest.png" width="225px" class="img-fluid">
-          </div>
-          <div class="col-xs-6" align="left">
-            <br>
-            <h3>Intereses bajos</h3>
-            <p class="card-text">Comprueba que nosotros tenemos tarifas más bajas que los bancos e incluso que otras páginas de préstamos en línea.</p>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6" align="right">
-            <br><br>
-            <h3>Alcanza metas</h3>
-            <p class="card-text">Queremos que alcances tu metas, por eso te regalamos descuentos y promociones en tiendas, restaurantes y cafeterías de tu preferencia.</p>
-          </div>
-          <div class="col-xs-6" align="left">
-            <img src="img/gamification.png" width="225px" class="img-fluid">
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6" align="right">
-            <img src="img/city.png" width="225px" class="img-fluid">
-          </div>
-          <div class="col-xs-6" align="left">
-            <h3>Más fácil</h3>
-            <p class="card-text">Te acompañamos durante todo el proceso y si te retrasas no te penalizamos. Además puedes pagar en linea, tiendas de auto servicio, bancos y más lugares.</p>
-          </div>
-        </div>
-        <br>
-      </div>
-      </div>
-    </section>
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 180px;
+  background: url('https://www.incimages.com/uploaded_files/image/1940x900/bank-loan-1940x900_30167.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
 
+</style>
+  <section><br><br>
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
+          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Prestamos al Instante</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Pide tu préstamo en dos sencillos pasos y en menos de 5 minutos disfrutaras de tu dinero.
+            </div>
+          <!--</div>-->
+        </div>
+        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
+          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Recompensas Tangibles</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              Descuentos en restaurantes, entradas al cine y hasta promociones en tus bares favoritos
+            </div>
+          <!--</div>-->
+        </div>
+        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
+          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Historial Crediticio</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+              ¿No tienes historial crediticio? NO TE PREOCUPES te ayudamos a empezarlo.
+            </div>
+          <!--</div>-->
+        </div>
+      </div>
+    </div><br><br>
+  </section>
     <!-- Comerce
     ================================================== -->
 
-  <section class="section-features">
-    <div class="container">
-      <h3 class="text-xs-center m-b-3">Podras tener acceso a promociones y descuentos en los siguientes comercios </h3>
+  <section>
+    <br>
+    <div class="container myFont">
+      <h1 align="center">Promociones</h1>
+      <h3 align="center">Podras tener acceso a promociones y descuentos en los siguientes comercios </h3><br>
       <div class="row">
         <div class="col-md-4">
-          <div class="card">
+          <div align="center">
             <img class="card-img-top img-responsive center-block" width="200px" src="img/sticky.jpg" alt="">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div align="center">
             <br>
             <img class="card-img-top img-responsive center-block" width="300px" src="img/subway.jpg" alt="">
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div align="center">
             <img class="card-img-top img-responsive center-block" width="300px" src="img/wok.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section><br>
+
+  <!-- Comerce
+  ================================================== -->
+
+<section id="navbar-rewards" style="color:#fffbfb" class="section-features bg-inverse myFont">
+  <br><br><br><br><br>
+  <div class="container">
+    <h1 align="center">Prueba la aplicación</h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div align="center"><br>
+          <img class="img-fluid" src="img/screenshots.png" alt="">
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div align="center-vertically">
+          <ul>
+            <br><br>
+            <li><h2><i class="material-icons md-36">assignment_turned_in</i> Solicita tu prestamo</h2></li><br>
+            <li><h2><i class="material-icons md-36">attach_money</i> Disfruta tu dinero</h2></li><br>
+            <li><h2><i class="material-icons md-36">card_giftcard</i> Obten beneficios</h2></li><br><br><br>
+            <a style="font-size:20px;" class="btn btn-outline-success" href="http://app.kintos.mx/" role="button">Registrate</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br>
+</section>
 
 
     <!-- Contact
     ================================================== -->
-    <section class="bg-green" id="contact">
+    <section class="bg-green" id="navbar-contact">
             <div class="container">
                 <div class="row">
                     <div class="about_our_company" style="margin-bottom: 20px;"><br>
@@ -260,7 +282,6 @@
                 <!-- <span class="media-object icon-logo display-1"></span> -->
               </div>
               <small class="media-body media-bottom">
-                &copy; Kintos SAPI de CV 2017. <br>
                 ayuda@kintosapp.com
                 </small>
             </div>
@@ -275,10 +296,17 @@
         </div>
       </div>
     </footer>
+  </main>
+</div>
+    <!-- Carousel
+    ================================================== -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="js/plugins/custom.js"></script>
-    <script src="js/landio.js"></script>
+
 
     </body>
 </html>

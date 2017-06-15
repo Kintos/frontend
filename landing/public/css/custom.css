@@ -33,9 +33,14 @@
   color: #40943A;
 }
 
-.logo{
-  font-family: 'overpass';
-  font-size: 200%;
-  color: #40943A;
-  display:inline-block;
+.bg-green {
+  background-color: #86c25c;518744
+}
+
+.bg-green-light {
+  background-color: #9AFFB4;
+}
+
+.bg-gray {
+  background-color: #CFCFCF;
 }
