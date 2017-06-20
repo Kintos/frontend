@@ -7,22 +7,6 @@
     <title>Kintos</title>
     <meta name="description" content="Prestamos instaneos con recompensas" />
     <meta name="keywords" content="prestamos recompensas gamification" />
-    <meta name="author" content="Kintos SAPI de CV" />
-
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
 
     <link rel="manifest" href="img/favicon/manifest.json">
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
@@ -40,12 +24,12 @@
 
   </head>
 
-  <body data-spy="scroll"  data-target="#navbar-kintos; #navbar-contact; #navbar-rewards">
+  <body data-spy="scroll"  data-target="#navbar-kintos; #navbar-faq; #navbar-rewards">
 
     <!-- Navigation
     ================================================== -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header myFont">
-  <header style="background-color: #000000" class="navbar fixed-top mdl-layout__header">
+  <header style="font-weight:900; opacity: 0.9; background-color: #212121" class="navbar fixed-top mdl-layout__header">
 
     <div class="mdl-layout__header-row mdl-layout--large-screen-only">
       <!-- Title -->
@@ -56,7 +40,7 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-kintos">¿Qué es Kintos?</a>
         <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-rewards">Recompensas</a>
-        <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-contact">Contacto</a>
+        <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-faq">FAQ</a>
         <a class="mdl-navigation__link" style="font-size: 20px" href="http://app.kintos.mx/login">INICIA</a>
       </nav>
     </div>
@@ -66,7 +50,7 @@
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-kintos">¿Qué es Kintos?</a>
       <a class="mdl-navigation__link" style="font-size: 20px" href="#navbar-rewards">Recompensas</a>
-      <a class="mdl-navigation__link" style="font-size: 20px" href=#navbar-contact"">Contacto</a>
+      <a class="mdl-navigation__link" style="font-size: 20px" href=#navbar-faq"">FAQ</a>
       <a class="mdl-navigation__link" style="color: #40943A; font-size: 20px" href="http://app.kintos.mx/login">INICIA</a>
     </nav>
   </div>
@@ -83,20 +67,23 @@
         <h2 class="m-b-3 myFont">Micro prestamos para estudiantes</h2>
         <br>
       </h1>
-      <a style="opacity:0.8; font-size:20px;" class="btn btn-success" href="http://app.kintos.mx/login" role="button">Comienza ahora</a>
+      <button style="opacity:0.8; font-size:25px;" class="btn btn-success bnt-lg" href="http://app.kintos.mx/login" role="button">Comienza ahora</button>
     </div>
 
     <!-- Intro
     ================================================== -->
 
-    <section class="bg-inverse myFont">
+    <section class="bg-gray myFont">
       <div class="container">
         <div class="row">
-          <div class="col-md-12" align="center" id="navbar-kintos">
+          <div class="col-md-2"></div>
+          <div class="col-md-8" align="center" id="navbar-kintos">
             <br><br><br><br>
               <h1 style="color: #f4f4f4">Presentamos Kintos</h1>
-              <p style="font-size: 20px; color: #f4f4f4">La herramienta financiera diseñada para estudiantes universitarios. Micro prestamos 24/7 con recompensas tangibles y relevantes. </p>
-              <img src="./img/Trophy_Icon.svg" alt="Gana con nosotros" width="150px">
+              <p style="font-size: 23px; color: #f4f4f4">La herramienta financiera diseñada para estudiantes universitarios. Micro prestamos 24/7 con recompensas tangibles y relevantes. </p>
+              <div align="center"><br>
+                <img class="img-fluid" src="img/screenshots2.png" alt="">
+              </div>
           </div>
         </div>
       </div><br><br>
@@ -104,206 +91,249 @@
 
     <!-- Features
     ================================================== -->
-<style>
 
-.demo-card-wide > .mdl-card__title-1 {
-  color: #fff;
-  height: 180px;
-  background: url('img/coins.png') center / cover;
-}
-.demo-card-wide > .mdl-card__title-2 {
-  color: #fff;
-  height: 180px;
-  background: url('img/recompensas.png') center / cover;
-}
-.demo-card-wide > .mdl-card__title-3 {
-  color: #fff;
-  height: 180px;
-  background: url('img/historial.png') center / cover;
-}
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-
-</style>
-  <section><br><br>
-    <div class="mdl-cell mdl-cell--12-col">
-      <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
-          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
-            <div class="mdl-card__title-1">
-              <h1 class="mdl-card__title-text">Prestamos al Instante</h1>
-            </div>
-            <div style="font-weight: 600;font-size: 20px" class="mdl-card__supporting-text">
-              Pide tu préstamo en dos sencillos pasos y en menos de 5 minutos disfrutaras de tu dinero.
-            </div>
-          <!--</div>-->
-        </div>
-        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
-          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
-            <div class="mdl-card__title-2">
-              <h1 class="mdl-card__title-text">Recompensas Tangibles</h1>
-            </div>
-            <div style="font-weight: 600;font-size: 20px" class="mdl-card__supporting-text">
-              Descuentos en restaurantes, entradas al cine y hasta promociones en tus bares favoritos
-            </div>
-          <!--</div>-->
-        </div>
-        <div class="mdl-cell mdl-cell--4-col demo-card-wide mdl-card center-block mdl-shadow--4dp">
-          <!--<div class="demo-card-wide mdl-card mdl-shadow--2dp">-->
-            <div class="mdl-card__title-3">
-              <h1 class="mdl-card__title-text">Historial Crediticio</h1>
-            </div>
-            <div style="font-weight: 600;font-size: 20px" class="mdl-card__supporting-text">
-              ¿No tienes historial crediticio? NO TE PREOCUPES te ayudamos a empezarlo.
-            </div>
-          <!--</div>-->
+  <section class=" myFont">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" align="left" id="navbar-kintos">
+          <br><br><br><br>
+            <h1  align="center">Dinero al Instante</h1>
+            <ul style="font-weight: 900;font-size: 20px;">
+              <li>
+                Justo lo que necesitas, prestamos desde 50 hasta 550 pesos y plazos que van de 1 día hasta una semana.
+              </li>
+              <li>
+                Crea tu cuenta con tu correo universitario.
+              </li>
+              <li>
+                Registra tu tarjeta de debito (donde recibirás tu prestamo).
+              </li>
+              <li>
+                Selecciona la cantidad que neeitas y el plazo que se te mejor te convenga.
+              </li>
+              <li>
+                Pide tu prestamo.
+              </li>
+              <li>
+                En menos de 10 minutos tendras tu dinero listo.
+              </li>
+            </ul>
         </div>
       </div>
     </div><br><br>
   </section>
-    <!-- Comerce
-    ================================================== -->
 
-  <section>
-    <br>
-    <div class="container myFont">
-      <h1 align="center">Promociones</h1>
-      <h3 align="center">Podras tener acceso a promociones y descuentos en los siguientes comercios </h3><br>
+  <section style="color:#fffbfb" class="section-features bg-inverse myFont">
+    <br><br><br><br>
+    <div class="container">
+      <h1 align="center">Historial Crediticio</h1>
       <div class="row">
-        <div class="col-md-4">
-          <div align="center">
-            <img class="card-img-top img-responsive center-block" width="200px" src="img/sticky.jpg" alt="">
-          </div>
+        <div class="col-md-2"></div>
+        <div align="center" class="col-md-8">
+          <h2>¡Sabemos que es dificil generarlo, por eso Kintos te ayuda a crearlo!</h2>
         </div>
-        <div class="col-md-4">
-          <div align="center">
-            <br>
-            <img class="card-img-top img-responsive center-block" width="300px" src="img/subway.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div align="center">
-            <img class="card-img-top img-responsive center-block" width="300px" src="img/wok.jpg" alt="">
-          </div>
+        <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <ul style="font-size: 20px;">
+            <li>Comienza a generar historial crediticio.</li>
+            <li>Recibe tips y consejos sobre finanzas personales desde la app.</li>
+            <li>Materiales creativos y escolares.</li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section><br>
+      </div>
+    </div><br><br>
+  </section>
 
   <!-- Comerce
   ================================================== -->
 
-<section id="navbar-rewards" style="color:#fffbfb" class="section-features bg-inverse myFont">
-  <br><br><br><br><br>
-  <div class="container">
-    <h1 align="center">Prueba la aplicación</h1>
+<section id="navbar-rewards" >
+  <br><br><br><br>
+  <div class="container myFont">
+    <h1 align="center">Recompensas</h1>
+    <h3 style="font-weight: 900;" align="center">Premios y promociones que si te sirven. </h3><br>
+    <div class="row"><br><br>
+      <div class="col-md-12">
+        <ul  style="font-weight:900;font-size: 20px;">
+          <li>Comida cercana a ti.</li>
+          <li>Tus lugares de entretenimiento favoritos.</li>
+          <li>Materiales creativos y escolares.</li>
+        </ul>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <div align="center"><br>
-          <img class="img-fluid" src="img/screenshots.png" alt="">
+      <div class="col-md-4">
+        <div align="center">
+          <img class="card-img-top img-responsive center-block" width="200px" src="img/sticky.jpg" alt="">
+          <h3>Hasta $20 de descuento en un tarro de cerveza.</h3>
         </div>
       </div>
-      <div class="col-xs-12 col-md-6">
-        <div align="center-vertically">
-          <ul>
-            <br><br>
-            <li><h2><i class="material-icons md-36">assignment_turned_in</i> Solicita tu prestamo</h2></li><br>
-            <li><h2><i class="material-icons md-36">attach_money</i> Disfruta tu dinero</h2></li><br>
-            <li><h2><i class="material-icons md-36">card_giftcard</i> Obten beneficios</h2></li><br><br><br>
-            <a style="font-size:20px;" class="btn btn-outline-success" href="http://app.kintos.mx/login" role="button">Registrate</a>
-          </ul>
+      <div class="col-md-4">
+        <div align="center">
+          <br>
+          <img class="card-img-top img-responsive center-block" width="300px" src="img/subway.jpg" alt="">
+          <h3>10% de descuento en tu siguiente Subway.</h3>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div align="center">
+          <img class="card-img-top img-responsive center-block" width="300px" src="img/wok.jpg" alt="">
+          <h3>10% de descuento en cualquier platillo a la carta.</h3>
         </div>
       </div>
     </div>
-  </div><br><br><br><br>
-</section>
+  </div>
+</section><br>
 
 
-    <!-- Contact
-    ================================================== -->
-    <section class="bg-green" id="navbar-contact">
-            <div class="container">
-                <div style="font-size: 20px;" class="row">
-                    <div class="about_our_company" style="margin-bottom: 20px;"><br>
-                        <h1>Escribe tu mensaje</h1>
-                        <div class="titleline-icon"></div>
-                        Deja tu mensaje y lo responderemos lo antes posible
-                    </div>
-                </div>
-                <div style="font-size: 20px;" class="row">
-                  <div class="col-xs-12 col-md-4">
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Nombre</label>
-                      <input type="password" class="form-control" id="nombre" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-md-4">
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Asunto</label>
-                      <input type="password" class="form-control" id="asunto" placeholder="Asunto">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleTextarea">Mensaje</label>
-                      <textarea class="form-control" id="mensaje" rows="3"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <br><br>
+  <section id="navbar-faq" class="bg-inverse myFont"><br><br><br><br>
+    <div class="container">
+      <h1 style="color: #fff;" align="center">Preguntas Frecuentes</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q1" aria-expanded="false" aria-controls="collapseExample">
+              ¿Que es Kintos?
+            </button>
+          </p>
+          <div class="collapse" id="q1">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Kintos es una herramienta diseñada para resolver el problema de liquidez que afecta a los estudiantes universitarios. A Través de micro préstamos diseñados específicamente para jóvenes y recompensas tangibles y relevantes.
             </div>
-        </section>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q2" aria-expanded="false" aria-controls="collapseExample">
+              ¿Como pedir dinero?
+            </button>
+          </p>
+          <div class="collapse" id="q2">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Para solicitar tu préstamo solo tienes que crear una cuenta kintos y es tan fácil como registrar tu correo universitario, ligar tu cuenta de débito ( es donde te depositamos el dinero) y pedir tu primer préstamo.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q3" aria-expanded="false" aria-controls="collapseExample">
+              ¿Como recibir mi dinero?
+            </button>
+          </p>
+          <div class="collapse" id="q3">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Después de registrarte y crear tu perfil, solo tienes que seleccionar en la página principal la cantidad de dinero y el plazo que más se te ajuste. Una vez confirmando tu préstamo, en menos de 10 minutos tendrás el dinero en tu cuenta listo para ser utilizado.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q4" aria-expanded="false" aria-controls="collapseExample">
+              ¿En dónde puedo pagar mi prestamo?
+            </button>
+          </p>
+          <div class="collapse" id="q4">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+            Puedes pagar tu préstamo en tiendas de autoservicio, el banco de tu preferencia, transferencia electrónica o dentro de la misma aplicación presionando el botón de pagar ahora.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q5" aria-expanded="false" aria-controls="collapseExample">
+              ¿Qué pasa si no pago?
+            </button>
+          </p>
+          <div class="collapse" id="q5">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Kintos está pensado para ser una herramienta financiera que ayude a los jóvenes, no perjudicarlos.Por esta razón estamos conscientes que pueden surgir imprevistos que imposibiliten el pago del préstamo. Si este es el caso, ponte en contacto con nosotros y buscaremos la manera de ayudarte. Recuerda que Kintos te ayuda a crear tu historial crediticio, así que debe ser utilizado con responsabilidad.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q6" aria-expanded="false" aria-controls="collapseExample">
+              ¿Cómo funcionan las recompensas?
+            </button>
+          </p>
+          <div class="collapse" id="q6">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Nos encanta ver a nuestros usuarios felices, por eso creamos alianzas con comercio que puedan ofrecer recompensas relevantes para los usuarios, como descuentos en comida, bebida, materiales escolares y creativos, así como entretenimiento.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q7" aria-expanded="false" aria-controls="collapseExample">
+              ¿Cómo funcionan la monedas?
+            </button>
+          </p>
+          <div class="collapse" id="q7">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Las monedas dentro de la aplicación se llaman Kintos, sirve para comprar recompensas y power ups.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q8" aria-expanded="false" aria-controls="collapseExample">
+              ¿Cómo ganar monedas?
+            </button>
+          </p>
+          <div class="collapse" id="q8">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Puedes ganar Kintos de 2 maneras diferentes:
+              <ul style="font-size:18px; font-weight:600;">
+                <li>Solicitando préstamos y pagandolos a tiempo.</li>
+                <li>Subiendo de nivel dentro de la aplicación.</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q9" aria-expanded="false" aria-controls="collapseExample">
+              ¿Cómo puedo subir de nivel?
+            </button>
+          </p>
+          <div class="collapse" id="q9">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Utilizando la aplicación. Por cada préstamo que pidas y cada pago que realices, ganarás experiencia, entre más experiencia ganes más rápido subirás de nivel.
+            </div>
+          </div>
+          <p>
+            <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#q10" aria-expanded="false" aria-controls="collapseExample">
+              ¿Por qué necesito un correo institucional para hacer mi cuenta?
+            </button>
+          </p>
+          <div class="collapse" id="q10">
+            <div style="color: #fff; background-color: #292b2c; font-size:18px; font-weight:600;" class="card card-block">
+              Kintos es una herramienta diseñada para ayudar a los jóvenes universitarios, por esta razón necesitamos un correo institucional para comprobar la legitimidad de la cuenta.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/screenshots.png">
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Footer
     ================================================== -->
-    <!--<footer class="section-footer bg-inverse" role="contentinfo">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-5">
-            <div class="media">
-              <div class="media-left">
-                <img src="img/logo.png" width="50px">
-              </div>
-              <small class="media-body media-bottom">
-                ayuda@kintosapp.com
-              </small>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-7">
-            <ul class="nav nav-inline">
-              <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
-              <li class="nav-item"><a class="nav-link" href="#" target="_blank">¿Preguntas?</a></li>
-              <li class="nav-item"><a class="nav-link scroll-top" href="#">Regresar arriba <span class="icon-caret-up"></span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>-->
     <footer style="background-color: #000" class="mdl-mini-footer">
             <div class="mdl-mini-footer__left-section">
                <div class="mdl-logo">
                   <img src="img/logo.png" width="50px"> Kintos
                </div>
-               <ul class="mdl-mini-footer__link-list">
+               <ul style="font-size: 18px;" class="mdl-mini-footer__link-list">
                   <li><a href="#">FAQ</a></li>
                   <li><a href="#">Terminos y Condiciones</a></li>
                </ul>
             </div>
-            <div class="mdl-cell mdl-cell--4-col">
+            <div style="font-size:16px; font-weight: 600;" class="mdl-cell mdl-cell--4-col">
               <h2>¿Por qué Kintos?</h2>
               Kintos busca ser la mejor herramienta financiera para los jóvenes,
               no solo por nuestros servicios,
               si no por el impacto en la educación financiera que cultivamos en nuestros usuarios.
             </div>
+            <div style="font-size:16px; font-weight: 600;" class="mdl-cell mdl-cell--4-col">
+              <br>
+              <h4><i class="material-icons">location_on</i> Direccion</h4>
+              Av. General Ramon Corona #2514
+              <h4><i class="material-icons">contact_mail</i> Correo Electronico</h4>
+              ayuda@kintosapp.com
+            </div>
             <div class="mdl-cell mdl-cell--4-col">
               <br>
-              <h3><i class="material-icons">location_on</i> Direccion</h3>
-              Av. General Ramon Corona #2514
-              <h3><i class="material-icons">contact_mail</i> Correo Electronico</h3>
-              ayuda@kintosapp.com
+              <h6 >Copyright ©  Interacciones Disruptivas S.A. de C.V.</h6>
             </div>
     </footer>
   </main>
